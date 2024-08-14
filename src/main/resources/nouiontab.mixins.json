@@ -1,0 +1,12 @@
+{
+	"required": true,
+	"package": "ch.andre601.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ch.andre601.nouiontab.mixin.InGameHudMixin",
+		"ch.andre601.nouiontab.mixin.PlayerListHudAccessor"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	}
+}
